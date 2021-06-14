@@ -1,5 +1,5 @@
 - name: Configuring newly created EC2 instances
-  hosts: all
+  hosts: ec2-54-190-44-89.us-west-2.compute.amazonaws.com
   user: ubuntu
   roles:
     - role: weareinteractive.environment
