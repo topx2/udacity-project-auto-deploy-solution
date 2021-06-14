@@ -28,6 +28,9 @@ commands:
               npm i
               npm run migration:revert
             fi
+          name: Configure server
+          command: |
+            ansible-playbook -i inventory.txt playbook.yml
 
 jobs:
   build_backend:
